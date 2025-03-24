@@ -1,0 +1,55 @@
+body{
+    background-color: aqua;
+}
+
+*{
+    text-decoration: none;
+    margin: 0;
+}
+.navbar{
+    background-color: blueviolet ; 
+    font-family: 'Courier New', Courier, monospace; 
+    padding-left: 15px;
+      padding-right: 15px;
+      
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    color: white;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+}
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+button a{
+    color: white;
+} 
+
+.main{
+    position: relative;
+    left: 440px;
+    top: 50px;
+    max-width: 300px;
+}
+
+.l{
+    color: white;
+}
